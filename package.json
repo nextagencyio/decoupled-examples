@@ -1,0 +1,36 @@
+{
+  "name": "decoupled-examples",
+  "version": "0.1.0",
+  "description": "AI-generated SPA showcase built with reusable paragraph components",
+  "private": true,
+  "engines": {
+    "node": ">=18.18.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-site": "bash scripts/generate-site.sh"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.539.0",
+    "next": "^16.1.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
