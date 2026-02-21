@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# ── Ensure node/npm/codex are on PATH (cron has minimal PATH) ──────
+export PATH="$HOME/.nvm/versions/node/v24.13.1/bin:$PATH"
+
 # ── Configuration ───────────────────────────────────────────────────
 PROJECT_DIR="$HOME/nodejs/decoupled-examples"
 LOG_FILE="$PROJECT_DIR/scripts/generate-site.log"
