@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-02-23
+- Added **Clay & Co. Studio** (`pottery-workshop`) — Artisan pottery workshop with wheel classes, hand-building labs, and flexible studio memberships
+
 ## 2026-02-13
 - Added **Peak Performance Gym** (`fitness-studio`) — Modern fitness studio with group classes, personal training, and wellness programs
 
