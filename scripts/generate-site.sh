@@ -61,7 +61,11 @@ Read AGENTS.md for full documentation on the component schema and project rules.
 5. Update UPDATES.md: add a new entry at the TOP with today's date (${TODAY}).
    Format: ## ${TODAY}\n- Added **Site Name** (\`slug\`) — Brief description
 
-6. Run: npx next build
+6. Update README.md: add the new site to the TOP of the "Latest Updates" bullet list
+   (keep existing entries, just prepend the new one). Same format as UPDATES.md but
+   with route path: - **Site Name** (\`/slug\`) — Brief description
+
+7. Run: npx next build
    If there are TypeScript errors, fix them before proceeding.
 
 IMPORTANT REMINDERS:
