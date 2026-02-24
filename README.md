@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Clay & Co. Studio** (`/pottery-workshop`) — Artisan pottery workshop with wheel classes, hand-building labs, and flexible studio memberships
 - **Peak Performance Gym** (`/fitness-studio`) — Modern fitness studio with group classes, personal training, and wellness programs
 - **Brewed Awakening** (`/coffee-shop`) — Artisan coffee shop with handcrafted drinks and fresh pastries
 
