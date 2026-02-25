@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-02-25
+- Added **Northlight Astronomy Club** (`astronomy-club`) — Community astronomy club with guided skywatch nights, beginner workshops, and family-friendly events
+
 ## 2026-02-23
 - Added **Clay & Co. Studio** (`pottery-workshop`) — Artisan pottery workshop with wheel classes, hand-building labs, and flexible studio memberships
 

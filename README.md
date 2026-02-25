@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Northlight Astronomy Club** (`/astronomy-club`) — Community astronomy club with guided skywatch nights, beginner workshops, and family-friendly events
 - **Clay & Co. Studio** (`/pottery-workshop`) — Artisan pottery workshop with wheel classes, hand-building labs, and flexible studio memberships
 - **Peak Performance Gym** (`/fitness-studio`) — Modern fitness studio with group classes, personal training, and wellness programs
 - **Brewed Awakening** (`/coffee-shop`) — Artisan coffee shop with handcrafted drinks and fresh pastries
