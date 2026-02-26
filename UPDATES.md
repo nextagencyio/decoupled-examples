@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-02-26
+- Added **Verdant Path Botanical Garden** (`botanical-garden`) — Botanical garden with seasonal exhibits, plant workshops, and family-friendly discovery programs
+
 ## 2026-02-25
 - Added **Northlight Astronomy Club** (`astronomy-club`) — Community astronomy club with guided skywatch nights, beginner workshops, and family-friendly events
 
