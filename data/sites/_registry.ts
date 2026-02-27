@@ -3,5 +3,6 @@ import fitnessStudio from './fitness-studio'
 import potteryWorkshop from './pottery-workshop'
 import astronomyClub from './astronomy-club'
 import botanicalGarden from './botanical-garden'
+import urbanBeekeeping from './urban-beekeeping'
 
-export const sites = [coffeeShop, fitnessStudio, potteryWorkshop, astronomyClub, botanicalGarden]
+export const sites = [coffeeShop, fitnessStudio, potteryWorkshop, astronomyClub, botanicalGarden, urbanBeekeeping]

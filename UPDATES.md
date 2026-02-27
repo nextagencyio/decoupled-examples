@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-02-27
+- Added **City Hive Learning Center** (`urban-beekeeping`) — Urban beekeeping school with beginner classes, rooftop apiary labs, and pollinator garden workshops
+
 ## 2026-02-26
 - Added **Verdant Path Botanical Garden** (`botanical-garden`) — Botanical garden with seasonal exhibits, plant workshops, and family-friendly discovery programs
 
