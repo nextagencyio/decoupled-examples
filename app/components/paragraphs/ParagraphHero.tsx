@@ -19,6 +19,7 @@ export default function ParagraphHero({
 }: ParagraphHeroType) {
   const isGradient = backgroundColor === 'gradient'
   const isDark = backgroundColor === 'dark' || isGradient
+  const needsLightText = isDark || !!backgroundImage?.url
 
   return (
     <section
@@ -59,7 +60,7 @@ export default function ParagraphHero({
           {/* Eyebrow */}
           {eyebrow && (
             <Badge
-              variant={isDark ? 'primary' : 'default'}
+              variant={needsLightText ? 'primary' : 'default'}
               size="md"
               className="mb-6"
             >
@@ -71,7 +72,7 @@ export default function ParagraphHero({
           <h1
             className={clsx(
               'text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6',
-              isDark || backgroundImage ? 'text-white' : 'text-gray-900'
+              needsLightText ? 'text-white' : 'text-gray-900'
             )}
           >
             {title}
@@ -83,7 +84,7 @@ export default function ParagraphHero({
               className={clsx(
                 'text-lg md:text-xl max-w-2xl mb-10',
                 layout === 'centered' && 'mx-auto',
-                isDark || backgroundImage ? 'text-gray-200' : 'text-gray-600'
+                needsLightText ? 'text-gray-200' : 'text-gray-600'
               )}
             >
               {subtitle}
@@ -100,7 +101,7 @@ export default function ParagraphHero({
             >
               {primaryCtaText && primaryCtaUrl && (
                 <Button
-                  variant={isDark ? 'secondary' : 'primary'}
+                  variant={needsLightText ? 'secondary' : 'primary'}
                   size="lg"
                   href={primaryCtaUrl}
                 >
@@ -109,10 +110,10 @@ export default function ParagraphHero({
               )}
               {secondaryCtaText && secondaryCtaUrl && (
                 <Button
-                  variant={isDark ? 'outline' : 'outline'}
+                  variant="outline"
                   size="lg"
                   href={secondaryCtaUrl}
-                  className={isDark ? 'border-white text-white hover:bg-white/10' : ''}
+                  className={needsLightText ? 'border-white/80 text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm' : ''}
                 >
                   {secondaryCtaText}
                 </Button>
