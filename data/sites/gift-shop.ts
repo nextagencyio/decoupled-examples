@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'gift-shop',
   name: 'Curated & Co.',
   description: 'A curated gift shop and local artisan marketplace featuring handmade goods, unique finds, and custom gift boxes.',
-  thumbnail: 'https://images.unsplash.com/photo-1513519245088-0e12902e35a6?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=400&h=300&fit=crop',
   accentColor: '#C27BA0',
   dateAdded: '2026-02-28',
   sections: [

@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'wildlife-sanctuary',
   name: 'Wildwood Sanctuary',
   description: 'Wildlife rehabilitation and education center dedicated to rescuing and protecting native animals.',
-  thumbnail: 'https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=400&h=300&fit=crop',
   accentColor: '#4A7C59',
   dateAdded: '2026-02-28',
   sections: [

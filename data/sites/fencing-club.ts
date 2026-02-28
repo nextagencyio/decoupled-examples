@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'fencing-club',
   name: 'En Garde Fencing Academy',
   description: 'A fencing club offering competitive training, beginner classes, and youth programs in foil, epee, and sabre.',
-  thumbnail: 'https://images.unsplash.com/photo-1558393155-e5096a81f8ae?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400&h=300&fit=crop',
   accentColor: '#1B3A5C',
   dateAdded: '2026-02-28',
   sections: [

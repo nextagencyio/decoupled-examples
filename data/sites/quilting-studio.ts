@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'quilting-studio',
   name: 'Patchwork & Thread',
   description: 'A quilting studio and fabric shop offering classes, supplies, and a welcoming creative community.',
-  thumbnail: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1528396518501-b53b655eb9b3?w=400&h=300&fit=crop',
   accentColor: '#D946A8',
   dateAdded: '2026-02-28',
   sections: [

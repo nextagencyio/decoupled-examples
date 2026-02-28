@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'barbershop',
   name: "The Gentleman's Cut",
   description: 'Classic barbershop and men\'s grooming offering traditional cuts, hot towel shaves, and modern styling.',
-  thumbnail: 'https://images.unsplash.com/photo-1503951914875-452d3969a8f6?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400&h=300&fit=crop',
   accentColor: '#1C1C1C',
   dateAdded: '2026-02-28',
   sections: [

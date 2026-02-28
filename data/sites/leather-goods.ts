@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'leather-goods',
   name: 'Heritage Leather Co.',
   description: 'Handcrafted leather goods and workshop.',
-  thumbnail: 'https://images.unsplash.com/photo-1473188588951-b7a0ac3e93a6?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=300&fit=crop',
   accentColor: '#6B3A2A',
   dateAdded: '2026-02-28',
   sections: [

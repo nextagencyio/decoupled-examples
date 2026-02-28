@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'jigsaw-lounge',
   name: 'Piece by Piece Lounge',
   description: 'A jigsaw puzzle lounge and community space where people gather to solve puzzles, unwind, and connect.',
-  thumbnail: 'https://images.unsplash.com/photo-1606503153255-59d5e417c4ed?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1494059980473-813e73ee784b?w=400&h=300&fit=crop',
   accentColor: '#5C6BC0',
   dateAdded: '2026-02-28',
   sections: [

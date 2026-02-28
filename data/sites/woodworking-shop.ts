@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'woodworking-shop',
   name: 'Grain & Chisel',
   description: 'Custom woodworking shop and classes.',
-  thumbnail: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1416339134316-0e91dc9ded92?w=400&h=300&fit=crop',
   accentColor: '#8B5E3C',
   dateAdded: '2026-02-28',
   sections: [

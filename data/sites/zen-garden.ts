@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'zen-garden',
   name: 'Tranquil Path Gardens',
   description: 'A Japanese zen garden and meditation retreat offering guided sessions, tea ceremonies, and seasonal garden walks.',
-  thumbnail: 'https://images.unsplash.com/photo-1580674287404-515de743b3ea?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?w=400&h=300&fit=crop',
   accentColor: '#5B7F5B',
   dateAdded: '2026-02-28',
   sections: [

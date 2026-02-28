@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply antialiased text-gray-900;
+    @apply antialiased bg-gray-950 text-white;
   }
 }
 
@@ -24,14 +24,6 @@
   .section-padding {
     @apply py-16 sm:py-20 lg:py-24;
   }
-
-  .gradient-primary {
-    @apply bg-gradient-to-r from-primary-600 to-primary-700;
-  }
-
-  .gradient-dark {
-    @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900;
-  }
 }
 
 @layer utilities {
@@ -39,16 +31,17 @@
     text-wrap: balance;
   }
 
-  @keyframes shimmer {
-    0% {
-      background-position: 200% 0;
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
     }
-    100% {
-      background-position: -200% 0;
+    50% {
+      background-position: 100% 50%;
     }
   }
 
-  .animate-shimmer {
-    animation: shimmer 2s ease-in-out infinite;
+  .animate-gradient {
+    background-size: 200% auto;
+    animation: gradient 3s ease infinite;
   }
 }

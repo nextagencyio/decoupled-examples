@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'spa-retreat',
   name: 'Serenity Springs Spa',
   description: 'Day spa and wellness retreat offering massages, facials, body treatments, and holistic wellness programs.',
-  thumbnail: 'https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=300&fit=crop',
   accentColor: '#5F7A61',
   dateAdded: '2026-02-28',
   sections: [

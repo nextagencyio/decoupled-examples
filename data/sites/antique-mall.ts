@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'antique-mall',
   name: 'Timeless Treasures',
   description: 'Antique mall and vintage marketplace featuring curated booths from dozens of independent dealers.',
-  thumbnail: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=400&h=300&fit=crop',
   accentColor: '#8B6914',
   dateAdded: '2026-02-28',
   sections: [

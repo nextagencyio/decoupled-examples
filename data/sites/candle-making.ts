@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'candle-making',
   name: 'Wick & Flame',
   description: 'Candle making workshop and boutique offering hands-on classes and handcrafted candles.',
-  thumbnail: 'https://images.unsplash.com/photo-1602607633591-2844f7c3b5d4?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1602523961358-f9f03dd557db?w=400&h=300&fit=crop',
   accentColor: '#D4A574',
   dateAdded: '2026-02-28',
   sections: [

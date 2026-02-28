@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'vintage-clothing',
   name: 'Retro Thread',
   description: 'Vintage and secondhand clothing boutique offering curated fashion from the 1960s through the 2000s.',
-  thumbnail: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop',
   accentColor: '#9333EA',
   dateAdded: '2026-02-28',
   sections: [

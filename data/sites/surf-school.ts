@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'surf-school',
   name: 'Pacific Swell Surf Co.',
   description: 'Surf lessons, board rentals, and beach vibes for beginners and experienced surfers alike.',
-  thumbnail: 'https://images.unsplash.com/photo-1502680390548-bdbac40c7498?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1455729552865-3658a5d39692?w=400&h=300&fit=crop',
   accentColor: '#0077B6',
   dateAdded: '2026-02-28',
   sections: [

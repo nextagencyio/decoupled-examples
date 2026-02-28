@@ -4,7 +4,7 @@ const site: SiteConfig = {
   slug: 'jewelry-workshop',
   name: 'Forge & Facet',
   description: 'Jewelry making workshop and boutique specializing in handcrafted metalwork, gemstone setting, and custom designs.',
-  thumbnail: 'https://images.unsplash.com/photo-1515562141589-67f0d727b750?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=400&h=300&fit=crop',
   accentColor: '#6D4C41',
   dateAdded: '2026-02-28',
   sections: [
