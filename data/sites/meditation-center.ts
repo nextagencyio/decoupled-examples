@@ -32,6 +32,25 @@ const site: SiteConfig = {
       secondaryCtaUrl: '#free',
     },
     {
+      __typename: 'ParagraphSidebyside',
+      id: 'meditation-space',
+      eyebrow: 'Our Space',
+      title: 'A sanctuary in the heart of the city',
+      content: '<p>Still Point occupies a converted loft with natural light, bamboo floors, and intentionally minimal decor. The space is designed to help you leave the noise of daily life at the door and settle into stillness.</p><p>We provide everything you need: meditation cushions, blankets, bolsters, and a welcoming community of fellow practitioners. All you need to bring is yourself.</p>',
+      image: {
+        url: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80',
+        alt: 'Bright meditation studio with cushions arranged in a circle',
+      },
+      imagePosition: 'right',
+      features: [
+        { id: 'meditation-feat-1', icon: 'Volume2', title: 'Sound-Insulated', description: 'Quiet space in a busy neighborhood' },
+        { id: 'meditation-feat-2', icon: 'Armchair', title: 'All Props Provided', description: 'Cushions, blankets, and bolsters' },
+        { id: 'meditation-feat-3', icon: 'Accessibility', title: 'Fully Accessible', description: 'Elevator access and chair options' },
+      ],
+      ctaText: 'Visit the studio',
+      ctaUrl: '#',
+    },
+    {
       __typename: 'ParagraphCardGroup',
       id: 'meditation-programs',
       eyebrow: 'Our Programs',
@@ -64,25 +83,6 @@ const site: SiteConfig = {
           linkUrl: '#',
         },
       ],
-    },
-    {
-      __typename: 'ParagraphSidebyside',
-      id: 'meditation-space',
-      eyebrow: 'Our Space',
-      title: 'A sanctuary in the heart of the city',
-      content: '<p>Still Point occupies a converted loft with natural light, bamboo floors, and intentionally minimal decor. The space is designed to help you leave the noise of daily life at the door and settle into stillness.</p><p>We provide everything you need: meditation cushions, blankets, bolsters, and a welcoming community of fellow practitioners. All you need to bring is yourself.</p>',
-      image: {
-        url: 'https://images.unsplash.com/photo-1591228127791-8e2eaef4f374?w=800&q=80',
-        alt: 'Bright meditation studio with cushions arranged in a circle',
-      },
-      imagePosition: 'right',
-      features: [
-        { id: 'meditation-feat-1', icon: 'Volume2', title: 'Sound-Insulated', description: 'Quiet space in a busy neighborhood' },
-        { id: 'meditation-feat-2', icon: 'Armchair', title: 'All Props Provided', description: 'Cushions, blankets, and bolsters' },
-        { id: 'meditation-feat-3', icon: 'Accessibility', title: 'Fully Accessible', description: 'Elevator access and chair options' },
-      ],
-      ctaText: 'Visit the studio',
-      ctaUrl: '#',
     },
     {
       __typename: 'ParagraphStat',

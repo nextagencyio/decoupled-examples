@@ -74,6 +74,16 @@ const site: SiteConfig = {
       ],
     },
     {
+      __typename: 'ParagraphTextBlock',
+      id: 'gift-shop-giftbox',
+      eyebrow: 'Custom Gift Boxes',
+      title: 'Build the perfect gift in minutes',
+      alignment: 'center',
+      content: '<p>Choose a box size, pick from our curated selection of products, add a handwritten card, and we will wrap it beautifully and ship it anywhere. Perfect for birthdays, housewarmings, thank-yous, corporate gifts, and holidays.</p><p>Not sure what to pick? Try one of our themed collections: The Cozy Night In, The Foodie Favorites, The Self-Care Sunday, or The New Home Welcome.</p>',
+      ctaText: 'Build a gift box',
+      ctaUrl: '#',
+    },
+    {
       __typename: 'ParagraphSidebyside',
       id: 'gift-shop-makers',
       eyebrow: 'Our Makers',
@@ -93,6 +103,19 @@ const site: SiteConfig = {
       ctaUrl: '#',
     },
     {
+      __typename: 'ParagraphLogoCollection',
+      id: 'gift-shop-featured-in',
+      eyebrow: 'As Seen In',
+      title: 'Featured by publications and partners we love',
+      logos: [
+        { id: 'gift-shop-logo-1', name: 'Local Living Magazine' },
+        { id: 'gift-shop-logo-2', name: 'Handmade Market Guide' },
+        { id: 'gift-shop-logo-3', name: 'The Artisan Collective' },
+        { id: 'gift-shop-logo-4', name: 'Small Business Saturday' },
+        { id: 'gift-shop-logo-5', name: 'Makers & Creators Podcast' },
+      ],
+    },
+    {
       __typename: 'ParagraphStat',
       id: 'gift-shop-stats',
       eyebrow: 'Community Impact',
@@ -104,16 +127,6 @@ const site: SiteConfig = {
         { id: 'gift-shop-stat-3', value: '15,000+', label: 'Gift boxes shipped', description: 'Delivering joy across the country' },
         { id: 'gift-shop-stat-4', value: '4.9', label: 'Customer rating', description: 'Across all platforms' },
       ],
-    },
-    {
-      __typename: 'ParagraphTextBlock',
-      id: 'gift-shop-giftbox',
-      eyebrow: 'Custom Gift Boxes',
-      title: 'Build the perfect gift in minutes',
-      alignment: 'center',
-      content: '<p>Choose a box size, pick from our curated selection of products, add a handwritten card, and we will wrap it beautifully and ship it anywhere. Perfect for birthdays, housewarmings, thank-yous, corporate gifts, and holidays.</p><p>Not sure what to pick? Try one of our themed collections: The Cozy Night In, The Foodie Favorites, The Self-Care Sunday, or The New Home Welcome.</p>',
-      ctaText: 'Build a gift box',
-      ctaUrl: '#',
     },
     {
       __typename: 'ParagraphQuote',
@@ -143,19 +156,6 @@ const site: SiteConfig = {
           authorTitle: 'Featured artisan',
           rating: 5,
         },
-      ],
-    },
-    {
-      __typename: 'ParagraphLogoCollection',
-      id: 'gift-shop-featured-in',
-      eyebrow: 'As Seen In',
-      title: 'Featured by publications and partners we love',
-      logos: [
-        { id: 'gift-shop-logo-1', name: 'Local Living Magazine' },
-        { id: 'gift-shop-logo-2', name: 'Handmade Market Guide' },
-        { id: 'gift-shop-logo-3', name: 'The Artisan Collective' },
-        { id: 'gift-shop-logo-4', name: 'Small Business Saturday' },
-        { id: 'gift-shop-logo-5', name: 'Makers & Creators Podcast' },
       ],
     },
     {

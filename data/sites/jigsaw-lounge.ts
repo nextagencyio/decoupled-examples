@@ -85,19 +85,6 @@ const site: SiteConfig = {
       ctaUrl: '#',
     },
     {
-      __typename: 'ParagraphStat',
-      id: 'jigsaw-lounge-stats',
-      eyebrow: 'By the Numbers',
-      title: 'Piece by piece, we are building something great',
-      backgroundColor: 'gradient',
-      stats: [
-        { id: 'jigsaw-lounge-stat-1', value: '500+', label: 'Puzzles in our library', description: 'From easy to extremely challenging' },
-        { id: 'jigsaw-lounge-stat-2', value: '20', label: 'Puzzle tables', description: 'Spacious stations with sorting trays' },
-        { id: 'jigsaw-lounge-stat-3', value: '3,200+', label: 'Puzzles completed', description: 'By our community members so far' },
-        { id: 'jigsaw-lounge-stat-4', value: '4.8', label: 'Google rating', description: 'From happy puzzlers' },
-      ],
-    },
-    {
       __typename: 'ParagraphPricing',
       id: 'jigsaw-lounge-pricing',
       eyebrow: 'Pricing',
@@ -135,6 +122,19 @@ const site: SiteConfig = {
           ctaText: 'Book an event',
           ctaUrl: '#',
         },
+      ],
+    },
+    {
+      __typename: 'ParagraphStat',
+      id: 'jigsaw-lounge-stats',
+      eyebrow: 'By the Numbers',
+      title: 'Piece by piece, we are building something great',
+      backgroundColor: 'gradient',
+      stats: [
+        { id: 'jigsaw-lounge-stat-1', value: '500+', label: 'Puzzles in our library', description: 'From easy to extremely challenging' },
+        { id: 'jigsaw-lounge-stat-2', value: '20', label: 'Puzzle tables', description: 'Spacious stations with sorting trays' },
+        { id: 'jigsaw-lounge-stat-3', value: '3,200+', label: 'Puzzles completed', description: 'By our community members so far' },
+        { id: 'jigsaw-lounge-stat-4', value: '4.8', label: 'Google rating', description: 'From happy puzzlers' },
       ],
     },
     {

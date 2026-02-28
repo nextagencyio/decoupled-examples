@@ -66,25 +66,6 @@ const site: SiteConfig = {
       ],
     },
     {
-      __typename: 'ParagraphSidebyside',
-      id: 'photo-about',
-      eyebrow: 'About',
-      title: 'The eye behind the lens',
-      content: '<p>Lumiere Studio is the creative home of photographer Sofia Chen, whose work has been featured in Martha Stewart Weddings, The Knot, and local publications across the region.</p><p>With over 12 years of experience and a fine arts background, Sofia brings a cinematic, editorial eye to every shoot while keeping things relaxed and genuine. The best photos happen when people feel comfortable being themselves.</p>',
-      image: {
-        url: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80',
-        alt: 'Professional camera with lens on a table',
-      },
-      imagePosition: 'right',
-      features: [
-        { id: 'photo-feat-1', icon: 'Award', title: '12+ Years Experience', description: 'Thousands of sessions completed' },
-        { id: 'photo-feat-2', icon: 'Camera', title: 'Professional Grade', description: 'Full-frame cameras and studio lighting' },
-        { id: 'photo-feat-3', icon: 'Clock', title: 'Fast Turnaround', description: 'Edited gallery in 2-3 weeks' },
-      ],
-      ctaText: 'Read the full story',
-      ctaUrl: '#',
-    },
-    {
       __typename: 'ParagraphPricing',
       id: 'photo-pricing',
       eyebrow: 'Investment',
@@ -152,6 +133,37 @@ const site: SiteConfig = {
       ],
     },
     {
+      __typename: 'ParagraphSidebyside',
+      id: 'photo-about',
+      eyebrow: 'About',
+      title: 'The eye behind the lens',
+      content: '<p>Lumiere Studio is the creative home of photographer Sofia Chen, whose work has been featured in Martha Stewart Weddings, The Knot, and local publications across the region.</p><p>With over 12 years of experience and a fine arts background, Sofia brings a cinematic, editorial eye to every shoot while keeping things relaxed and genuine. The best photos happen when people feel comfortable being themselves.</p>',
+      image: {
+        url: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80',
+        alt: 'Professional camera with lens on a table',
+      },
+      imagePosition: 'right',
+      features: [
+        { id: 'photo-feat-1', icon: 'Award', title: '12+ Years Experience', description: 'Thousands of sessions completed' },
+        { id: 'photo-feat-2', icon: 'Camera', title: 'Professional Grade', description: 'Full-frame cameras and studio lighting' },
+        { id: 'photo-feat-3', icon: 'Clock', title: 'Fast Turnaround', description: 'Edited gallery in 2-3 weeks' },
+      ],
+      ctaText: 'Read the full story',
+      ctaUrl: '#',
+    },
+    {
+      __typename: 'ParagraphAccordion',
+      id: 'photo-faq',
+      eyebrow: 'FAQ',
+      title: 'Common questions',
+      items: [
+        { id: 'photo-faq-1', question: 'What should I wear for my session?', answer: '<p>Solid colors and soft textures photograph beautifully. Avoid busy patterns and logos. I send a detailed style guide after booking with specific suggestions for your session type and location.</p>' },
+        { id: 'photo-faq-2', question: 'Do you offer payment plans?', answer: '<p>Yes! For weddings and larger packages, I offer a 50/25/25 payment plan. A deposit of 50% secures your date, with the remainder split between two later payments.</p>' },
+        { id: 'photo-faq-3', question: 'Can I order prints through you?', answer: '<p>Absolutely. I partner with a professional print lab and offer gallery-quality prints, canvases, albums, and holiday cards. Pricing is available in your online gallery.</p>' },
+        { id: 'photo-faq-4', question: 'What happens if it rains on our outdoor session?', answer: '<p>We reschedule! I monitor the forecast closely and will reach out 24 hours in advance if conditions look unfavorable. Rescheduling is always free.</p>' },
+      ],
+    },
+    {
       __typename: 'ParagraphStat',
       id: 'photo-stats',
       eyebrow: 'Experience',
@@ -171,18 +183,6 @@ const site: SiteConfig = {
       title: 'What to expect',
       alignment: 'left',
       content: '<p><strong>1. Consultation</strong> — We start with a free phone or video call to discuss your vision, style preferences, and logistics.</p><p><strong>2. The Session</strong> — On shoot day, we keep things relaxed and fun. I will guide you through poses while capturing candid moments in between.</p><p><strong>3. Reveal</strong> — Your edited gallery is delivered via a private online link within 2-3 weeks. From there, you can download, share, and order prints.</p>',
-    },
-    {
-      __typename: 'ParagraphAccordion',
-      id: 'photo-faq',
-      eyebrow: 'FAQ',
-      title: 'Common questions',
-      items: [
-        { id: 'photo-faq-1', question: 'What should I wear for my session?', answer: '<p>Solid colors and soft textures photograph beautifully. Avoid busy patterns and logos. I send a detailed style guide after booking with specific suggestions for your session type and location.</p>' },
-        { id: 'photo-faq-2', question: 'Do you offer payment plans?', answer: '<p>Yes! For weddings and larger packages, I offer a 50/25/25 payment plan. A deposit of 50% secures your date, with the remainder split between two later payments.</p>' },
-        { id: 'photo-faq-3', question: 'Can I order prints through you?', answer: '<p>Absolutely. I partner with a professional print lab and offer gallery-quality prints, canvases, albums, and holiday cards. Pricing is available in your online gallery.</p>' },
-        { id: 'photo-faq-4', question: 'What happens if it rains on our outdoor session?', answer: '<p>We reschedule! I monitor the forecast closely and will reach out 24 hours in advance if conditions look unfavorable. Rescheduling is always free.</p>' },
-      ],
     },
     {
       __typename: 'ParagraphNewsletter',

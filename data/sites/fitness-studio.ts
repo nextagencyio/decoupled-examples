@@ -28,18 +28,6 @@ const site: SiteConfig = {
       secondaryCtaUrl: '#schedule',
     },
     {
-      __typename: 'ParagraphStat',
-      id: 'fitness-stats',
-      eyebrow: 'Why Peak Performance',
-      title: 'Results that speak for themselves',
-      stats: [
-        { id: 'fitness-stat-1', value: '2,500+', label: 'Active members', description: 'And growing every month' },
-        { id: 'fitness-stat-2', value: '40+', label: 'Weekly classes', description: 'From yoga to HIIT' },
-        { id: 'fitness-stat-3', value: '15', label: 'Certified trainers', description: 'Ready to guide you' },
-        { id: 'fitness-stat-4', value: '98%', label: 'Member retention', description: 'People stay because it works' },
-      ],
-    },
-    {
       __typename: 'ParagraphCardGroup',
       id: 'fitness-classes',
       eyebrow: 'Class Schedule',
@@ -101,6 +89,36 @@ const site: SiteConfig = {
       ctaUrl: '#',
     },
     {
+      __typename: 'ParagraphQuote',
+      id: 'fitness-testimonials',
+      eyebrow: 'Success Stories',
+      title: 'Hear from our members',
+      layout: 'grid',
+      testimonials: [
+        {
+          id: 'fitness-review-1',
+          quote: 'I\'ve been a member for 8 months and I\'m in the best shape of my life. The trainers here genuinely care.',
+          authorName: 'Marcus T.',
+          authorTitle: 'Member since 2025',
+          rating: 5,
+        },
+        {
+          id: 'fitness-review-2',
+          quote: 'The HIIT classes are addictive. I\'ve tried other gyms but nothing compares to the energy here.',
+          authorName: 'Emily W.',
+          authorTitle: 'HIIT enthusiast',
+          rating: 5,
+        },
+        {
+          id: 'fitness-review-3',
+          quote: 'As a beginner, I was nervous. The staff made me feel welcome from day one. No judgment, just support.',
+          authorName: 'James L.',
+          authorTitle: 'New member',
+          rating: 5,
+        },
+      ],
+    },
+    {
       __typename: 'ParagraphPricing',
       id: 'fitness-pricing',
       eyebrow: 'Membership',
@@ -141,33 +159,15 @@ const site: SiteConfig = {
       ],
     },
     {
-      __typename: 'ParagraphQuote',
-      id: 'fitness-testimonials',
-      eyebrow: 'Success Stories',
-      title: 'Hear from our members',
-      layout: 'grid',
-      testimonials: [
-        {
-          id: 'fitness-review-1',
-          quote: 'I\'ve been a member for 8 months and I\'m in the best shape of my life. The trainers here genuinely care.',
-          authorName: 'Marcus T.',
-          authorTitle: 'Member since 2025',
-          rating: 5,
-        },
-        {
-          id: 'fitness-review-2',
-          quote: 'The HIIT classes are addictive. I\'ve tried other gyms but nothing compares to the energy here.',
-          authorName: 'Emily W.',
-          authorTitle: 'HIIT enthusiast',
-          rating: 5,
-        },
-        {
-          id: 'fitness-review-3',
-          quote: 'As a beginner, I was nervous. The staff made me feel welcome from day one. No judgment, just support.',
-          authorName: 'James L.',
-          authorTitle: 'New member',
-          rating: 5,
-        },
+      __typename: 'ParagraphStat',
+      id: 'fitness-stats',
+      eyebrow: 'Why Peak Performance',
+      title: 'Results that speak for themselves',
+      stats: [
+        { id: 'fitness-stat-1', value: '2,500+', label: 'Active members', description: 'And growing every month' },
+        { id: 'fitness-stat-2', value: '40+', label: 'Weekly classes', description: 'From yoga to HIIT' },
+        { id: 'fitness-stat-3', value: '15', label: 'Certified trainers', description: 'Ready to guide you' },
+        { id: 'fitness-stat-4', value: '98%', label: 'Member retention', description: 'People stay because it works' },
       ],
     },
     {
