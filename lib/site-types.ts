@@ -14,6 +14,7 @@ export interface SiteConfig {
   thumbnail: string
   accentColor: string
   dateAdded: string
+  category: string
   theme: SiteTheme
   sections: ParagraphType[]
 }

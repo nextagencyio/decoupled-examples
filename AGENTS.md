@@ -31,6 +31,7 @@ interface SiteConfig {
   thumbnail: string      // Unsplash URL (use ?w=400&h=300&fit=crop)
   accentColor: string    // Hex color for the gallery card accent bar
   dateAdded: string      // ISO date string (YYYY-MM-DD)
+  category: string       // One of the valid categories below
   theme: SiteTheme       // Visual theme — each site MUST have a unique color/font combo
   sections: ParagraphType[]  // 6-10 paragraph sections composing the page
 }
@@ -42,6 +43,19 @@ interface SiteTheme {
   borderRadius: 'none' | 'sm' | 'md' | 'lg' | 'xl' | '2xl'
 }
 ```
+
+### Valid Categories
+Pick the **one** best-fitting category for the site:
+- **Food & Drink** — restaurants, cafes, bakeries, breweries, bars
+- **Wellness & Fitness** — gyms, yoga, spas, meditation, dental/health clinics
+- **Arts & Crafts** — art studios, workshops, handmade goods, printing
+- **Music & Entertainment** — music venues, theaters, game cafes, film schools
+- **Nature & Garden** — botanical gardens, farms, nurseries, aquariums, wildlife
+- **Adventure & Sports** — water sports, climbing, skiing, cycling, archery
+- **Pets & Animals** — pet care, adoption, grooming, veterinary
+- **Education** — language schools, writing, robotics, dance, cooking classes
+- **Home & Services** — design, photography, auto, barbershops, flower shops
+- **Travel & Hospitality** — lodges, coworking, travel blogs, vintage/antique shops, bookstores
 
 ### Theme Guidelines
 - Choose colors that **match the site's personality** (e.g., green for nature, blue for tech, red for food)

@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=300&fit=crop',
   accentColor: '#0097A7',
   dateAdded: '2026-02-28',
+  category: 'Wellness & Fitness',
   theme: {
     primaryColor: '#0891b2',
     secondaryColor: '#0d9488',

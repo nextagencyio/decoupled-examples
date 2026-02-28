@@ -50,6 +50,9 @@ Read AGENTS.md for full documentation on the component schema and project rules.
 2. Create a new file at data/sites/<slug>.ts following the SiteConfig format in AGENTS.md.
    Use 7-10 sections with at least 5 different component types. Start with ParagraphHero.
    End with ParagraphNewsletter or ParagraphAccordion.
+   IMPORTANT: Include a 'category' field — pick from: Food & Drink, Wellness & Fitness,
+   Arts & Crafts, Music & Entertainment, Nature & Garden, Adventure & Sports,
+   Pets & Animals, Education, Home & Services, Travel & Hospitality.
    IMPORTANT: Include a 'theme' field with primaryColor, secondaryColor, fontFamily, and
    borderRadius. Choose colors that match the site's personality. Use a font and border
    radius that differs from the most recently added sites. See AGENTS.md for theme details.

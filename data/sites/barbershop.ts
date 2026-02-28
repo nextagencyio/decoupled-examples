@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400&h=300&fit=crop',
   accentColor: '#1C1C1C',
   dateAdded: '2026-02-28',
+  category: 'Home & Services',
   theme: {
     primaryColor: '#c026d3',
     secondaryColor: '#ec4899',

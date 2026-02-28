@@ -59,7 +59,16 @@ export default function HomePage() {
             </span>
           </h1>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-3">
-            A growing collection of AI-generated example SPA websites built with reusable paragraph components.
+            A growing collection of AI-generated example websites showcasing the flexibility of the{' '}
+            <a
+              href="https://github.com/nextagencyio/decoupled-components"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors"
+            >
+              decoupled-components
+            </a>{' '}
+            starter kit — each built from the same set of reusable paragraph components.
           </p>
           <p className="text-sm text-gray-500">
             {sites.length} sites and counting — new ones added daily by AI

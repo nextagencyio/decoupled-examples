@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=400&h=300&fit=crop',
   accentColor: '#D4213D',
   dateAdded: '2026-02-28',
+  category: 'Music & Entertainment',
   theme: {
     primaryColor: '#0284c7',
     secondaryColor: '#fb923c',

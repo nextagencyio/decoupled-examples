@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1607006344380-b6775a0824a7?w=400&h=300&fit=crop',
   accentColor: '#7D8A6E',
   dateAdded: '2026-02-28',
+  category: 'Arts & Crafts',
   theme: {
     primaryColor: '#7c3aed',
     secondaryColor: '#be185d',

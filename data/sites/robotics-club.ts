@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?w=400&h=300&fit=crop',
   accentColor: '#0891B2',
   dateAdded: '2026-02-28',
+  category: 'Education',
   theme: {
     primaryColor: '#0f766e',
     secondaryColor: '#14b8a6',

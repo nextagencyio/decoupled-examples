@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1455729552865-3658a5d39692?w=400&h=300&fit=crop',
   accentColor: '#0077B6',
   dateAdded: '2026-02-28',
+  category: 'Adventure & Sports',
   theme: {
     primaryColor: '#4f46e5',
     secondaryColor: '#10b981',

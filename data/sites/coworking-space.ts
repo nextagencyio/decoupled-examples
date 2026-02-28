@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=400&h=300&fit=crop',
   accentColor: '#F59E0B',
   dateAdded: '2026-02-28',
+  category: 'Travel & Hospitality',
   theme: {
     primaryColor: '#e11d48',
     secondaryColor: '#10b981',

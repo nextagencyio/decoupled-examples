@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1559526642-c3f001ea68ee?w=400&h=300&fit=crop',
   accentColor: '#B45309',
   dateAdded: '2026-02-28',
+  category: 'Food & Drink',
   theme: {
     primaryColor: '#e11d48',
     secondaryColor: '#14b8a6',

@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=400&h=300&fit=crop',
   accentColor: '#059669',
   dateAdded: '2026-02-28',
+  category: 'Pets & Animals',
   theme: {
     primaryColor: '#047857',
     secondaryColor: '#dc2626',

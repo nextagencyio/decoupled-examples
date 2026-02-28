@@ -7,6 +7,7 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=400&h=300&fit=crop',
   accentColor: '#4A7C59',
   dateAdded: '2026-02-28',
+  category: 'Nature & Garden',
   theme: {
     primaryColor: '#0891b2',
     secondaryColor: '#8b5cf6',
