@@ -31,9 +31,23 @@ interface SiteConfig {
   thumbnail: string      // Unsplash URL (use ?w=400&h=300&fit=crop)
   accentColor: string    // Hex color for the gallery card accent bar
   dateAdded: string      // ISO date string (YYYY-MM-DD)
+  theme: SiteTheme       // Visual theme — each site MUST have a unique color/font combo
   sections: ParagraphType[]  // 6-10 paragraph sections composing the page
 }
+
+interface SiteTheme {
+  primaryColor: string      // Hex color (e.g., '#2563eb') — drives buttons, links, accents
+  secondaryColor: string    // Hex color (e.g., '#f59e0b') — drives secondary elements
+  fontFamily: 'inter' | 'dm-sans' | 'playfair' | 'space-grotesk' | 'merriweather' | 'raleway' | 'source-serif' | 'work-sans'
+  borderRadius: 'none' | 'sm' | 'md' | 'lg' | 'xl' | '2xl'
+}
 ```
+
+### Theme Guidelines
+- Choose colors that **match the site's personality** (e.g., green for nature, blue for tech, red for food)
+- Use a **different primary/secondary pair** from existing sites
+- Pick a **font that fits the brand**: serif fonts (playfair, merriweather, source-serif) for elegant/traditional, sans-serif (inter, dm-sans, space-grotesk, raleway, work-sans) for modern/clean
+- Vary `borderRadius`: 'none' for sharp/modern, 'lg'/'xl' for friendly/soft, '2xl' for playful
 
 ## Available Paragraph Components
 

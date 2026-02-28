@@ -4,9 +4,13 @@ import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { Search, X } from 'lucide-react'
 import type { SiteConfig } from '@/lib/site-types'
+import Pagination from './Pagination'
+
+const ITEMS_PER_PAGE = 18
 
 export default function SiteGallery({ sites }: { sites: SiteConfig[] }) {
   const [query, setQuery] = useState('')
+  const [currentPage, setCurrentPage] = useState(1)
 
   const filtered = useMemo(() => {
     if (!query.trim()) return sites
@@ -19,6 +23,17 @@ export default function SiteGallery({ sites }: { sites: SiteConfig[] }) {
     )
   }, [sites, query])
 
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
+  const paginated = filtered.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  )
+
+  const handleQueryChange = (value: string) => {
+    setQuery(value)
+    setCurrentPage(1)
+  }
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Search bar */}
@@ -28,13 +43,13 @@ export default function SiteGallery({ sites }: { sites: SiteConfig[] }) {
           <input
             type="text"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => handleQueryChange(e.target.value)}
             placeholder="Search sites..."
             className="w-full pl-10 pr-10 py-2.5 rounded-lg bg-gray-900 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors text-sm"
           />
           {query && (
             <button
-              onClick={() => setQuery('')}
+              onClick={() => handleQueryChange('')}
               className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
             >
               <X className="h-4 w-4" />
@@ -49,11 +64,11 @@ export default function SiteGallery({ sites }: { sites: SiteConfig[] }) {
       </div>
 
       {/* Grid */}
-      {filtered.length === 0 ? (
+      {paginated.length === 0 ? (
         <div className="text-center py-20">
           <p className="text-gray-500 text-lg">No sites match your search.</p>
           <button
-            onClick={() => setQuery('')}
+            onClick={() => handleQueryChange('')}
             className="mt-3 text-blue-400 hover:text-blue-300 text-sm transition-colors"
           >
             Clear search
@@ -61,7 +76,7 @@ export default function SiteGallery({ sites }: { sites: SiteConfig[] }) {
         </div>
       ) : (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((site) => (
+          {paginated.map((site) => (
             <Link
               key={site.slug}
               href={`/${site.slug}`}
@@ -89,6 +104,13 @@ export default function SiteGallery({ sites }: { sites: SiteConfig[] }) {
           ))}
         </div>
       )}
+
+      {/* Pagination */}
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={setCurrentPage}
+      />
     </div>
   )
 }

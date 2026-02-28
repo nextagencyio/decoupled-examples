@@ -7,6 +7,12 @@ const site: SiteConfig = {
   thumbnail: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=300&fit=crop',
   accentColor: '#6B4C8A',
   dateAdded: '2026-02-28',
+  theme: {
+    primaryColor: '#9333ea',
+    secondaryColor: '#6366f1',
+    fontFamily: 'space-grotesk',
+    borderRadius: '2xl',
+  },
   sections: [
     {
       __typename: 'ParagraphHero',
