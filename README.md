@@ -1,19 +1,23 @@
 # Decoupled Examples
 
-A growing collection of AI-generated example SPA websites built with reusable paragraph components from [decoupled-components](https://github.com/nextagencyio/decoupled-components).
+**100 example sites** — a growing collection of AI-generated SPA websites built with reusable paragraph components from [decoupled-components](https://github.com/nextagencyio/decoupled-components).
 
 New sites are generated daily by [Codex CLI](https://github.com/openai/codex) running on a cron schedule.
 
 ## Latest Updates
 
-- **City Hive Learning Center** (`/urban-beekeeping`) — Urban beekeeping school with beginner classes, rooftop apiary labs, and pollinator garden workshops
-- **Verdant Path Botanical Garden** (`/botanical-garden`) — Botanical garden with seasonal exhibits, plant workshops, and family-friendly discovery programs
-- **Northlight Astronomy Club** (`/astronomy-club`) — Community astronomy club with guided skywatch nights, beginner workshops, and family-friendly events
-- **Clay & Co. Studio** (`/pottery-workshop`) — Artisan pottery workshop with wheel classes, hand-building labs, and flexible studio memberships
-- **Peak Performance Gym** (`/fitness-studio`) — Modern fitness studio with group classes, personal training, and wellness programs
-- **Brewed Awakening** (`/coffee-shop`) — Artisan coffee shop with handcrafted drinks and fresh pastries
+- **Tranquil Path Gardens** (`/zen-garden`) — Japanese zen garden and meditation retreat
+- **Canopy Eco Lodge** (`/eco-lodge`) — Sustainable eco-lodge with treehouse cabins and guided hikes
+- **Phoenix Glass Studio** (`/glass-blowing`) — Glass blowing studio and gallery with classes and live demos
+- **Ironside Brewing Co.** (`/craft-brewery`) — Craft brewery and taproom with small-batch beers
+- **Puzzle Palace** (`/escape-room`) — Immersive escape room experiences with themed rooms
+- **Sakura Sushi** (`/sushi-restaurant`) — Authentic Japanese sushi restaurant featuring omakase
+- **Circuit Breakers Robotics** (`/robotics-club`) — Youth robotics club and STEM education center
+- **The Laugh Factory** (`/improv-theater`) — Improv comedy theater with live shows and training
+- **City Hive Learning Center** (`/urban-beekeeping`) — Urban beekeeping school with beginner classes
+- **Verdant Path Botanical Garden** (`/botanical-garden`) — Botanical garden with seasonal exhibits and plant workshops
 
-See [UPDATES.md](UPDATES.md) for the full changelog.
+See [UPDATES.md](UPDATES.md) for the full changelog with all 100 sites.
 
 ## How It Works
 
