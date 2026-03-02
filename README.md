@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Grand Loop Miniature Railway** (`/miniature-railway`) — Interactive miniature railway museum with operating layouts, build workshops, and weekend train days for families
 - **Tranquil Path Gardens** (`/zen-garden`) — Japanese zen garden and meditation retreat
 - **Canopy Eco Lodge** (`/eco-lodge`) — Sustainable eco-lodge with treehouse cabins and guided hikes
 - **Phoenix Glass Studio** (`/glass-blowing`) — Glass blowing studio and gallery with classes and live demos

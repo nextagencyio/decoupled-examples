@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-02
+- Added **Grand Loop Miniature Railway** (`miniature-railway`) — Interactive miniature railway museum with operating layouts, build workshops, and weekend train days for families
+
 ## 2026-02-28
 - Added **Timeless Treasures** (`antique-mall`) — Antique mall and vintage marketplace featuring curated booths from dozens of independent dealers
 - Added **True Arrow Archery** (`archery-range`) — Indoor archery range and training center offering open shooting, leagues, and lessons
