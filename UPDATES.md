@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-03
+- Added **Ink & Flourish Studio** (`calligraphy-studio`) — Modern calligraphy studio with lettering workshops, private coaching, and live event personalization
+
 ## 2026-03-02
 - Added **Grand Loop Miniature Railway** (`miniature-railway`) — Interactive miniature railway museum with operating layouts, build workshops, and weekend train days for families
 

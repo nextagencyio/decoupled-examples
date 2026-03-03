@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Ink & Flourish Studio** (`/calligraphy-studio`) — Modern calligraphy studio with lettering workshops, private coaching, and live event personalization
 - **Grand Loop Miniature Railway** (`/miniature-railway`) — Interactive miniature railway museum with operating layouts, build workshops, and weekend train days for families
 - **Tranquil Path Gardens** (`/zen-garden`) — Japanese zen garden and meditation retreat
 - **Canopy Eco Lodge** (`/eco-lodge`) — Sustainable eco-lodge with treehouse cabins and guided hikes
