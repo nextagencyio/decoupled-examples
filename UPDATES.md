@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-04
+- Added **Skybound Balloon Adventures** (`hot-air-balloon`) — Sunrise hot-air-balloon flight company with scenic valley routes, private charters, and first-time friendly experiences
+
 ## 2026-03-03
 - Added **Ink & Flourish Studio** (`calligraphy-studio`) — Modern calligraphy studio with lettering workshops, private coaching, and live event personalization
 
