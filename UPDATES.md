@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-05
+- Added **Second Hand Watchworks** (`watch-repair`) — Precision watch repair and restoration studio offering diagnostics, battery service, and heirloom overhauls with transparent turnaround times
+
 ## 2026-03-04
 - Added **Skybound Balloon Adventures** (`hot-air-balloon`) — Sunrise hot-air-balloon flight company with scenic valley routes, private charters, and first-time friendly experiences
 
