@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-06
+- Added **Atelier Aureline** (`perfume-atelier`) — Custom perfume atelier offering scent consultations, blending workshops, and signature fragrance development
+
 ## 2026-03-05
 - Added **Second Hand Watchworks** (`watch-repair`) — Precision watch repair and restoration studio offering diagnostics, battery service, and heirloom overhauls with transparent turnaround times
 

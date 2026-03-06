@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Atelier Aureline** (`/perfume-atelier`) — Custom perfume atelier offering scent consultations, blending workshops, and signature fragrance development
 - **Second Hand Watchworks** (`/watch-repair`) — Precision watch repair and restoration studio offering diagnostics, battery service, and heirloom overhauls with transparent turnaround times
 - **Skybound Balloon Adventures** (`/hot-air-balloon`) — Sunrise hot-air-balloon flight company with scenic valley routes, private charters, and first-time friendly experiences
 - **Ink & Flourish Studio** (`/calligraphy-studio`) — Modern calligraphy studio with lettering workshops, private coaching, and live event personalization
