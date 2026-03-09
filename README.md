@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Tide & Pigment Studio** (`/paper-marbling-studio`) — Paper marbling studio offering beginner-friendly workshops, custom stationery runs, and elegant handmade papers
 - **Atelier Aureline** (`/perfume-atelier`) — Custom perfume atelier offering scent consultations, blending workshops, and signature fragrance development
 - **Second Hand Watchworks** (`/watch-repair`) — Precision watch repair and restoration studio offering diagnostics, battery service, and heirloom overhauls with transparent turnaround times
 - **Skybound Balloon Adventures** (`/hot-air-balloon`) — Sunrise hot-air-balloon flight company with scenic valley routes, private charters, and first-time friendly experiences

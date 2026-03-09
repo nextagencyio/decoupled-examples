@@ -1,5 +1,9 @@
 # Updates
 
+## 2026-03-09
+- Added **Tide & Pigment Studio** (`paper-marbling-studio`) — Paper marbling studio offering beginner-friendly workshops, custom stationery runs, and elegant handmade papers
+
+
 ## 2026-03-06
 - Added **Atelier Aureline** (`perfume-atelier`) — Custom perfume atelier offering scent consultations, blending workshops, and signature fragrance development
 
