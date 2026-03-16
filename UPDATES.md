@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-16
+- Added **Blue Tessera Studio** (`mosaic-studio`) — Mosaic art studio offering tile workshops, custom house numbers, and team sessions built around color, pattern, and hands-on making
+
 ## 2026-03-09
 - Added **Tide & Pigment Studio** (`paper-marbling-studio`) — Paper marbling studio offering beginner-friendly workshops, custom stationery runs, and elegant handmade papers
 
