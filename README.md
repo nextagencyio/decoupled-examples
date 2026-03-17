@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Loop & Loom Studio** (`/tufting-studio`) — Rug tufting studio offering beginner workshops, custom wall pieces, and private sessions centered on bold color and soft texture
 - **Blue Tessera Studio** (`/mosaic-studio`) — Mosaic art studio offering tile workshops, custom house numbers, and team sessions built around color, pattern, and hands-on making
 - **Tide & Pigment Studio** (`/paper-marbling-studio`) — Paper marbling studio offering beginner-friendly workshops, custom stationery runs, and elegant handmade papers
 - **Atelier Aureline** (`/perfume-atelier`) — Custom perfume atelier offering scent consultations, blending workshops, and signature fragrance development

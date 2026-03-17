@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-17
+- Added **Loop & Loom Studio** (`tufting-studio`) — Rug tufting studio offering beginner workshops, custom wall pieces, and private sessions centered on bold color and soft texture
+
 ## 2026-03-16
 - Added **Blue Tessera Studio** (`mosaic-studio`) — Mosaic art studio offering tile workshops, custom house numbers, and team sessions built around color, pattern, and hands-on making
 
