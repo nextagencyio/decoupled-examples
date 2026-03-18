@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-18
+- Added **Golden Seam Studio** (`kintsugi-studio`) — Kintsugi studio offering restorative workshops, ceramic repair commissions, and quiet private sessions that turn cracked pottery into luminous keepsakes
+
 ## 2026-03-17
 - Added **Loop & Loom Studio** (`tufting-studio`) — Rug tufting studio offering beginner workshops, custom wall pieces, and private sessions centered on bold color and soft texture
 

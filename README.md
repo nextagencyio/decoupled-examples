@@ -1,11 +1,12 @@
 # Decoupled Examples
 
-**107 example sites** — a growing collection of AI-generated SPA websites built with reusable paragraph components from [decoupled-components](https://github.com/nextagencyio/decoupled-components).
+**109 example sites** — a growing collection of AI-generated SPA websites built with reusable paragraph components from [decoupled-components](https://github.com/nextagencyio/decoupled-components).
 
 New sites are generated daily by [Codex CLI](https://github.com/openai/codex) running on a cron schedule.
 
 ## Latest Updates
 
+- **Golden Seam Studio** (`/kintsugi-studio`) — Kintsugi studio offering restorative workshops, ceramic repair commissions, and quiet private sessions that turn cracked pottery into luminous keepsakes
 - **Loop & Loom Studio** (`/tufting-studio`) — Rug tufting studio offering beginner workshops, custom wall pieces, and private sessions centered on bold color and soft texture
 - **Blue Tessera Studio** (`/mosaic-studio`) — Mosaic art studio offering tile workshops, custom house numbers, and team sessions built around color, pattern, and hands-on making
 - **Tide & Pigment Studio** (`/paper-marbling-studio`) — Paper marbling studio offering beginner-friendly workshops, custom stationery runs, and elegant handmade papers
@@ -25,7 +26,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 - **City Hive Learning Center** (`/urban-beekeeping`) — Urban beekeeping school with beginner classes
 - **Verdant Path Botanical Garden** (`/botanical-garden`) — Botanical garden with seasonal exhibits and plant workshops
 
-See [UPDATES.md](UPDATES.md) for the full changelog with all 107 sites.
+See [UPDATES.md](UPDATES.md) for the full changelog with all 109 sites.
 
 ## How It Works
 
