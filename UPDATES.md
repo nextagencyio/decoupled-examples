@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-19
+- Added **Spine & Thread Bindery** (`bookbinding-studio`) — Bookbinding studio offering handbound journal workshops, custom guest books, and small-batch cloth-bound editions made with archival materials and measured craft
+
 ## 2026-03-18
 - Added **Golden Seam Studio** (`kintsugi-studio`) — Kintsugi studio offering restorative workshops, ceramic repair commissions, and quiet private sessions that turn cracked pottery into luminous keepsakes
 

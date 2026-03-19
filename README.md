@@ -1,11 +1,12 @@
 # Decoupled Examples
 
-**109 example sites** — a growing collection of AI-generated SPA websites built with reusable paragraph components from [decoupled-components](https://github.com/nextagencyio/decoupled-components).
+**110 example sites** — a growing collection of AI-generated SPA websites built with reusable paragraph components from [decoupled-components](https://github.com/nextagencyio/decoupled-components).
 
 New sites are generated daily by [Codex CLI](https://github.com/openai/codex) running on a cron schedule.
 
 ## Latest Updates
 
+- **Spine & Thread Bindery** (`/bookbinding-studio`) — Bookbinding studio offering handbound journal workshops, custom guest books, and small-batch cloth-bound editions made with archival materials and measured craft
 - **Golden Seam Studio** (`/kintsugi-studio`) — Kintsugi studio offering restorative workshops, ceramic repair commissions, and quiet private sessions that turn cracked pottery into luminous keepsakes
 - **Loop & Loom Studio** (`/tufting-studio`) — Rug tufting studio offering beginner workshops, custom wall pieces, and private sessions centered on bold color and soft texture
 - **Blue Tessera Studio** (`/mosaic-studio`) — Mosaic art studio offering tile workshops, custom house numbers, and team sessions built around color, pattern, and hands-on making
