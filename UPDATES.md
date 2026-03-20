@@ -1,5 +1,8 @@
 # Updates
 
+## 2026-03-20
+- Added **Lumen Pane Studio** (`stained-glass-studio`) — Stained glass studio offering copper foil workshops, custom window panels, and private group sessions shaped around color, light, and careful assembly
+
 ## 2026-03-19
 - Added **Spine & Thread Bindery** (`bookbinding-studio`) — Bookbinding studio offering handbound journal workshops, custom guest books, and small-batch cloth-bound editions made with archival materials and measured craft
 

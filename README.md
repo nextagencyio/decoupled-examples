@@ -6,6 +6,7 @@ New sites are generated daily by [Codex CLI](https://github.com/openai/codex) ru
 
 ## Latest Updates
 
+- **Lumen Pane Studio** (`/stained-glass-studio`) — Stained glass studio offering copper foil workshops, custom window panels, and private group sessions shaped around color, light, and careful assembly
 - **Spine & Thread Bindery** (`/bookbinding-studio`) — Bookbinding studio offering handbound journal workshops, custom guest books, and small-batch cloth-bound editions made with archival materials and measured craft
 - **Golden Seam Studio** (`/kintsugi-studio`) — Kintsugi studio offering restorative workshops, ceramic repair commissions, and quiet private sessions that turn cracked pottery into luminous keepsakes
 - **Loop & Loom Studio** (`/tufting-studio`) — Rug tufting studio offering beginner workshops, custom wall pieces, and private sessions centered on bold color and soft texture
