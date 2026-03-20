@@ -5,7 +5,7 @@ const site: SiteConfig = {
   name: 'Golden Seam Studio',
   description:
     'Kintsugi studio offering restorative workshops, ceramic repair commissions, and quiet private sessions that turn cracked pottery into luminous keepsakes.',
-  thumbnail: 'https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?w=400&h=300&fit=crop',
+  thumbnail: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=400&h=300&fit=crop',
   accentColor: '#C89B3C',
   dateAdded: '2026-03-18',
   category: 'Arts & Crafts',
@@ -26,8 +26,8 @@ const site: SiteConfig = {
       layout: 'left-aligned',
       backgroundColor: 'light',
       backgroundImage: {
-        url: 'https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?w=1400&q=80',
-        alt: 'Ceramic vessels and tools arranged on a calm studio worktable',
+        url: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=1400&q=80',
+        alt: 'Handcrafted ceramic cups with gold-finished detailing on a clean studio surface',
       },
       primaryCtaText: 'Book a Repair Workshop',
       primaryCtaUrl: '#workshops',
